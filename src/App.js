@@ -9,8 +9,9 @@ function App() {
     <div className="App">
       <Router>
         <Menu />
-        <Switch>
+        <Switch>   
           <Route path="/error">
+            <Error />
             <Error />
           </Route>
           <Route path="/:brand">
